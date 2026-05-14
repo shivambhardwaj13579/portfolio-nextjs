@@ -8,7 +8,7 @@ export default function Footer() {
       <span>
         Gurugram, India{" "}
         <span style={{ color: "var(--accent)" }}>●</span>{" "}
-        Open to Remote(in you ❤️)
+        Open to Remote(in your ❤️)
       </span>
     </footer>
   );
