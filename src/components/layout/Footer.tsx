@@ -1,14 +1,7 @@
 export default function Footer() {
   return (
     <footer
-      className="relative z-10 flex justify-between items-center flex-wrap gap-4"
-      style={{
-        padding: "3rem 4rem",
-        borderTop: "1px solid var(--border)",
-        fontFamily: "var(--font-mono)",
-        fontSize: "0.75rem",
-        color: "var(--text3)",
-      }}
+      className="relative z-10 flex justify-between items-center flex-wrap gap-4 px-16 py-12 max-md:px-8 max-md:py-6 border-t border-[var(--border)] font-mono text-xs text-[var(--text3)]"
     >
       <span>© 2026 Shivam Bhardwaj</span>
       <span>Designed &amp; developed with craft</span>

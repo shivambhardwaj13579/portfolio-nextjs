@@ -19,8 +19,7 @@ export default function Hero() {
     <section
       id="hero"
       ref={ref}
-      className="relative min-h-screen flex flex-col justify-center overflow-hidden"
-      style={{ padding: "0 4rem" }}
+      className="relative min-h-screen flex flex-col justify-center overflow-hidden px-16 max-md:px-8"
     >
       {/* Grid background */}
       <motion.div

@@ -87,8 +87,8 @@ export default function Experience() {
   const headInView = useInView(headRef, { once: true, margin: "-100px" });
 
   return (
-    <section id="experience" className="relative z-10" style={{ background: "var(--bg2)", padding: "8rem 4rem" }}>
-      <div style={{ maxWidth: 1000, margin: "0 auto" }}>
+    <section id="experience" className="relative z-10 bg-[var(--bg2)] px-16 py-32 max-md:px-8 max-md:py-16">
+      <div className="max-w-5xl mx-auto">
         <div style={{ fontFamily: "var(--font-mono)", fontSize: "0.75rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--accent)", marginBottom: "0.75rem", display: "flex", alignItems: "center", gap: "0.75rem" }}>
           <span style={{ width: 24, height: 1, background: "var(--accent)", display: "block" }} />
           Experience

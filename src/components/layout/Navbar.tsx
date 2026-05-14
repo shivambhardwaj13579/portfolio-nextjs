@@ -20,7 +20,7 @@ export default function Navbar() {
 
   return (
     <nav
-      className="fixed top-0 left-0 right-0 z-[100] flex items-center justify-between px-16 py-6 transition-all duration-300"
+      className="fixed top-0 left-0 right-0 z-[100] flex items-center justify-between px-16 py-6 max-md:px-8 transition-all duration-300"
       style={
         scrolled
           ? { background: "rgba(8,10,15,0.85)", backdropFilter: "blur(20px)", borderBottom: "1px solid var(--border)" }

@@ -109,7 +109,7 @@ export default function Projects() {
   const inView = useInView(headRef, { once: true, margin: "-100px" });
 
   return (
-    <section id="projects" className="relative z-10" style={{ padding: "8rem 4rem", maxWidth: 1200, margin: "0 auto" }}>
+    <section id="projects" className="relative z-10 px-16 py-32 max-md:px-8 max-md:py-16 max-w-6xl mx-auto">
       <div style={{ fontFamily: "var(--font-mono)", fontSize: "0.75rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--accent)", marginBottom: "0.75rem", display: "flex", alignItems: "center", gap: "0.75rem" }}>
         <span style={{ width: 24, height: 1, background: "var(--accent)", display: "block" }} />
         Projects
@@ -126,7 +126,7 @@ export default function Projects() {
         <span style={{ color: "var(--text2)" }}>built.</span>
       </motion.h2>
 
-      <div style={{ display: "grid", gridTemplateColumns: "repeat(2, 1fr)", gap: "1.5rem", marginTop: "3rem" }} className="max-md:grid-cols-1">
+      <div className="grid grid-cols-2 gap-6 mt-12 max-md:grid-cols-1">
         {projects.map((p, i) => <ProjectCard key={p.num} p={p} i={i} />)}
       </div>
     </section>

@@ -49,7 +49,7 @@ export default function Contact() {
   const inView = useInView(headRef, { once: true, margin: "-100px" });
 
   return (
-    <section id="contact" className="relative z-10" style={{ padding: "8rem 4rem", maxWidth: 1200, margin: "0 auto", textAlign: "center" }}>
+    <section id="contact" className="relative z-10 px-16 py-32 max-md:px-8 max-md:py-16 max-w-6xl mx-auto text-center">
       <div style={{ fontFamily: "var(--font-mono)", fontSize: "0.75rem", letterSpacing: "0.2em", textTransform: "uppercase", color: "var(--accent)", marginBottom: "0.75rem", display: "flex", alignItems: "center", justifyContent: "center", gap: "0.75rem" }}>
         <span style={{ width: 24, height: 1, background: "var(--accent)", display: "block" }} />
         Contact
